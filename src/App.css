@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #221f1f;
+  color: #fff;
+}
+
+/* CSS instruction for the Nav */
+.NavbarLink {
+  font-size: 0.8em;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.NavbarIcon {
+  color: #fff;
+  font-size: 1.3em;
+  margin-left: 0.8em;
+}
+
+#NavbarKids {
+  font-size: 0.9em;
+  color: #fff;
+  margin-left: 0.8em;
+}
+
+/* CSS instruction for the upperMainComponent */
+.formSelect {
+  background-color: #221f1f;
+  color: #fff;
+}
+
+.upperIcon {
+  font-size: 1.4em;
+}
