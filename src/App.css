@@ -82,6 +82,18 @@ body {
 }
 
 /* CSS instructions for the posters into the main */
+.rowComponent {
+  position: relative;
+}
+
+.spinnerContainer {
+  position: absolute;
+  top: 33%;
+  bottom: 33%;
+  left: 33%;
+  right: 33%;
+}
+
 .rowPoster {
   aspect-ratio: 1 / 1;
   height: 100%;
@@ -100,6 +112,11 @@ body {
 }
 
 /* CSS instructions for the footer component */
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+} */
 
 .footerListItem {
   border: none;

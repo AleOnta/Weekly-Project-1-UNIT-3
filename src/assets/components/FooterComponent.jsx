@@ -2,7 +2,7 @@ import { Container, Row, Col, ListGroup, Button } from "react-bootstrap";
 
 const FooterComponent = () => {
   return (
-    <Container fluid className="mt-5">
+    <Container fluid className="mt-5 footer">
       <Row>
         <Col xs={6} bg="light" className="offset-3">
           <Row className="mt-5">
