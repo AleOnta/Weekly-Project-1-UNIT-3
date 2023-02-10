@@ -20,7 +20,7 @@ class UpperComponent extends Component {
           </Form>
         </Col>
         <Col className="d-flex justify-content-end align-items-center">
-          <BsGridFill className="mr-2 upperIcon" />
+          <BsGridFill className="mr-4 upperIcon" />
           <BsGrid3X3GapFill className="mr-3 upperIcon" />
         </Col>
       </Row>

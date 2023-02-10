@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ShowsRowComponent from "./ShowsRowComponent";
 import UpperComponent from "./UpperComponent";
 
@@ -8,9 +8,9 @@ class MainComponent extends Component {
     return (
       <Container fluid bg="dark" variant="dark" className="pt-3">
         <UpperComponent />
-        <ShowsRowComponent typo="Trending Now" />
-        <ShowsRowComponent typo="Watch it Again" />
-        <ShowsRowComponent typo="New Releases" />
+        <ShowsRowComponent typo="Trending Now" toFetch="harry%20potter" />
+        <ShowsRowComponent typo="Watch it Again" toFetch="teletubbies" />
+        <ShowsRowComponent typo="New Releases" toFetch="dragon%20ball" />
       </Container>
     );
   }

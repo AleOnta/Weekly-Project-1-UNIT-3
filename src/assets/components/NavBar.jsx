@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 import { BsSearch, BsFillPersonFill, BsFillBellFill } from "react-icons/bs";
+import { ReactComponent as Logo } from "../imgs/NetflixLogo.svg";
 
 const NavbarComponent = () => {
   return (
@@ -8,7 +9,7 @@ const NavbarComponent = () => {
         <Row className="d-flex justify-content-between align-items-center w-100 p-0">
           <Col className="d-flex align-items-center p-0">
             <Navbar.Brand href="#home">
-              <img src="../imgs/NetflixLogo.svg" alt="Netflix Logo" />
+              <Logo id="NavLogo" />
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

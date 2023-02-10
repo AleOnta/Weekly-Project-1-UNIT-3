@@ -43,6 +43,13 @@ body {
 }
 
 /* CSS instruction for the Nav */
+
+#NavLogo {
+  width: 100px;
+  height: 40px;
+  margin-left: 1em;
+}
+
 .NavbarLink {
   font-size: 0.8em;
   white-space: nowrap;
@@ -53,6 +60,7 @@ body {
   color: #fff;
   font-size: 1.3em;
   margin-left: 0.8em;
+  cursor: pointer;
 }
 
 #NavbarKids {
@@ -65,8 +73,62 @@ body {
 .formSelect {
   background-color: #221f1f;
   color: #fff;
+  border-color: #838383;
 }
 
 .upperIcon {
   font-size: 1.4em;
+  cursor: pointer;
+}
+
+/* CSS instructions for the posters into the main */
+.rowPoster {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  transition: 0.2s;
+}
+
+.rowPoster:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.myCard {
+  height: 140px;
+  border: none;
+  border-radius: 0;
+}
+
+/* CSS instructions for the footer component */
+
+.footerListItem {
+  border: none;
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0.3em 0;
+  background-color: inherit;
+}
+
+.footerListItem a {
+  color: #838383;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footerButton {
+  font-size: 0.8em;
+  margin-top: 0.7em;
+  border-radius: 0;
+  border: 1px solid #838383;
+  color: #838383;
+}
+
+.footerButton:hover {
+  background-color: #838383;
+}
+
+.footerCopyright {
+  font-size: 0.6em;
+  color: #838383;
 }
