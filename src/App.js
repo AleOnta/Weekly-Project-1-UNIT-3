@@ -11,7 +11,6 @@ function App() {
       <NavbarComponent />
       <MainComponent />
       <FooterComponent />
-      <ModalComponent />
     </>
   );
 }

@@ -109,6 +109,7 @@ body {
   height: 140px;
   border: none;
   border-radius: 0;
+  position: relative;
 }
 
 /* CSS instructions for the footer component */
@@ -213,4 +214,12 @@ body {
   width: 50%;
   background-color: #282c34;
   color: #999999;
+}
+
+.modalButton {
+  position: absolute;
+  bottom: 0;
+  left: 33.3%;
+  right: 33.3%;
+  font-size: 0.6em;
 }
