@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import FooterComponent from "./assets/components/FooterComponent";
 import MainComponent from "./assets/components/MainComponent";
+import ModalComponent from "./assets/components/ModalComponent";
 import NavbarComponent from "./assets/components/NavBar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NavbarComponent />
       <MainComponent />
       <FooterComponent />
+      <ModalComponent />
     </>
   );
 }

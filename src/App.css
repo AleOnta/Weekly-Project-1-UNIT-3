@@ -45,8 +45,8 @@ body {
 /* CSS instruction for the Nav */
 
 #NavLogo {
-  width: 100px;
-  height: 40px;
+  width: 80px;
+  height: 50px;
   margin-left: 1em;
 }
 
@@ -113,11 +113,6 @@ body {
 
 /* CSS instructions for the footer component */
 
-/* .footer {
-  position: absolute;
-  bottom: 0;
-} */
-
 .footerListItem {
   border: none;
   font-size: 0.8em;
@@ -147,5 +142,75 @@ body {
 
 .footerCopyright {
   font-size: 0.6em;
+  margin-bottom: 2em;
   color: #838383;
+}
+
+/* CSS instructions for modal */
+
+.modal-dialog {
+  border: 1px solid #7c0f12;
+  border-radius: 10px;
+}
+
+.modalContainer {
+  background-color: #181818;
+  border-color: #7c0f12;
+}
+
+/* instruction for the header of the modal */
+.modalHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalHead h4 {
+  width: 60%;
+  font-size: 0.8em;
+  color: #999999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.modalHead ul {
+  width: 40%;
+  font-size: 0.4em;
+  color: #999999;
+}
+
+/* instruction for the body of the modal */
+
+.modalBody .imgModalContainer {
+  width: 25%;
+}
+
+.imgModalContainer img {
+  max-width: 100%;
+}
+
+.textModalContainer {
+  width: 75%;
+  color: #999999;
+}
+
+.textModalContainer ul {
+  list-style-type: none;
+}
+
+.textModalContainer h5 {
+  font-size: 0.8em;
+}
+
+.textModalContainer p {
+  font-size: 0.7em;
+}
+
+/* instructions for the footer of the modal */
+
+.modalContainer button {
+  width: 50%;
+  background-color: #282c34;
+  color: #999999;
 }
