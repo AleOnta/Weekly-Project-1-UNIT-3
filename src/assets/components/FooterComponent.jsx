@@ -5,7 +5,7 @@ const FooterComponent = () => {
     <Container fluid className="mt-5 footer">
       <Row>
         <Col xs={6} bg="light" className="offset-3">
-          <Row className="mt-5">
+          <Row className="mt-5" xs={1} sm={2} xl={4}>
             <Col>
               <ListGroup className="footerList">
                 <ListGroup.Item className="footerListItem">

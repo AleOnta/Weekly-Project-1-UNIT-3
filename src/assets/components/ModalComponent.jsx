@@ -57,7 +57,7 @@ class ModalComponent extends Component {
             this.handelModal();
           }}
           variant="danger"
-          className="modalButton"
+          className="modalButton m-0 p-1"
         >
           More Info
         </Button>

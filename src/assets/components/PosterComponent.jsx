@@ -6,7 +6,7 @@ class PosterComponent extends Component {
   render() {
     return (
       <>
-        <Col className="p-0 mr-2 filmCard">
+        <Col xs={12} sm={6} lg={4} xl={2} className="my-1 px-1 d-flex justify-content-center">
           <Card className="myCard">
             <Card.Img variant="top" src={this.props.poster.Poster} className="rowPoster" />
             <ModalComponent modalContent={this.props.poster} />

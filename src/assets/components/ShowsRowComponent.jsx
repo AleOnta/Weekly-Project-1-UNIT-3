@@ -54,7 +54,7 @@ class ShowsRowComponent extends Component {
         <Col xs={12}>
           <h4>{this.props.typo}</h4>
         </Col>
-        <Col className="d-flex justify-content-between align-items-center">
+        <Row className="d-flex justify-content-center justify-content-lg-between align-items-center mx-2 w-100">
           {this.state.films
             .slice(0, 6)
 
@@ -62,7 +62,7 @@ class ShowsRowComponent extends Component {
               return <PosterComponent poster={film} key={film.imdbID} className="m-2" />;
             })}
           {this.state.hasError && <Alert variant="secondary">{this.state.errorMessage}</Alert>}
-        </Col>
+        </Row>
       </Row>
     );
   }

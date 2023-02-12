@@ -5,10 +5,10 @@ import { BsGridFill, BsGrid3X3GapFill } from "react-icons/bs";
 class UpperComponent extends Component {
   render() {
     return (
-      <Row className="d-flex justify-content-between align-items-center">
-        <Col className="d-flex justify.content-around align-items-center">
-          <h2 className="mr-3">TV Shows</h2>
-          <Form>
+      <Row className="d-flex justify-content-between align-items-center mt-3 mb-md-5">
+        <Col className="d-flex justify-content-around justify-content-sm-start align-items-center upperMainComponent">
+          <h2 className="mr-3 mb-0">TV Shows</h2>
+          <Form className="selectContainer">
             <Form.Group controlId="exampleForm.SelectCustom" className="mb-0">
               <Form.Control as="select" custom className="formSelect">
                 <option>Genres</option>
